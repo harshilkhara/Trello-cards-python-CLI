@@ -61,10 +61,12 @@ in the industry.
                                 labels for the Trello card
         ```
     which equates to- 
+    ```
         python3 add_trello_card.py BOARD_ID "your list name/ specified column"  "your card name" -c "your comment" -l "your color1" "your color2"
+    ```
 
     For example- 
-        python3 add_trello_card.py 6wsNCPw9 "To do" "A new card" -c "sprint 1" -l "yellow" "green" 
+        python3 add_trello_card.py ABCDEF123 "To do" "A new card" -c "sprint 1" -l "yellow" "green" 
 
     The above will now add a card with name "A new card" to the "To do" specified column in your trello board with comment "sprint 1" and 
     label it with yellow and green color.
@@ -98,11 +100,13 @@ in the industry.
         -h, --help  show this help message and exit
         ```
     which equates to- 
+
+    ```
         python3 add_trello_list.py BOARD_ID "your list name/ specified column"
+    ```
 
     For example- 
-        python3 add_trello_list.py 6wsNCPw9 "a new list"
+        python3 add_trello_list.py ABCDEF123 "a new list"
 
     The above will now add a column/ list with name "a new list" to the trello board.
 
-9. The project includes a Summary.pdf file showing the workings of project.
